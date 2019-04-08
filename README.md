@@ -22,9 +22,13 @@ mzuniga94@csu.fullerton.edu
 * https://www.datacamp.com/home
 * https://www.lynda.com/learning-paths/IT/master-excel-for-data-science
 
+<!--- Move to Syllabus Later -->
 ### Week 1
 * Readings:
   * Python for Data Science. Chapters 1-3.
+* SQL:
+  * Intro to SQL for Data Science 
+    * Selecting Columns
 * Exercises:
 
 ### Week 2
