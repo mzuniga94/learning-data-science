@@ -119,3 +119,19 @@ Out[76]: [7, 2, 3, 6, 3, 5, 6, 0, 1]
 * Using **start:** will default to the start index and end at the end.
 * Using **::end** will step by every other element.
 * Using **::-1** will reverse a list or tuple.
+
+#### Built-in Sequence Functions
+* Using **enumerate** keeps track of the index of the current items
+* Using **sorted** returns a new sorted list from the elements of any sequence.
+* Using **zip** pairs up elements of a number of lists, tuples, or other sequence to create a list of tuples.
+ * A common use for zip is to simultaneously iterate over multiple sequences, possibly combined with enumerate.
+ * An example would be converting list of rows into a list of columns.
+```
+In [96]: pitchers = [('Nolan', 'Ryan'), ('Roger', 'Clemens'),
+ ....: ('Schilling', 'Curt')]
+In [97]: first_names, last_names = zip(*pitchers)
+In [98]: first_names
+Out[98]: ('Nolan', 'Roger', 'Schilling')
+In [99]: last_names
+Out[99]: ('Ryan', 'Clemens', 'Curt')
+```
